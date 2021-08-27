@@ -1,0 +1,63 @@
+arch/arm64/Makefile:67: Detected assembler with broken .inst; disassembly will be unreliable
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+  CHK     include/config/kernel.release
+ccache: error: Could not find compiler "clang" in PATH
+Cannot use CONFIG_CC_STACKPROTECTOR_STRONG: -fstack-protector-strong not supported by compiler
+ccache: error: Could not find compiler "clang" in PATH
+make[1]: *** [/root/exthm/kernel/xiaomi/surya/Makefile:1334: prepare-compiler-check] Error 1
+make[1]: *** Waiting for unfinished jobs....
+  UPD     include/config/kernel.release
+make[1]: Leaving directory '/root/exthm/out/target/product/surya/obj/KERNEL_OBJ'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/root/exthm/kernel/xiaomi/surya'
+03:20:58 Disallowed PATH tool "llvm-ar" used: []string{"llvm-ar", "rcD", ".tmp_9788/tmp"}
+03:20:58 See https://android.googlesource.com/platform/build/+/master/Changes.md#PATH_Tools for more information.
+[ 99% 3633/3638] Building dtb.img
+FAILED: out/target/product/surya/dtb.img
+/bin/bash -c "(PATH=/root/exthm/out/host/linux-x86/bin:\$PATH PATH=/root/exthm/prebuilts/clang/host/linux-x86/clang-proton/bin:\$PATH LD_LIBRARY_PATH=/root/exthm/prebuilts/clang/host/linux-x86/clang-proton/lib64:\$LD_LIBRARY_PATH PATH=/root/exthm/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/root/exthm/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/root/exthm/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/root/exthm/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/root/exthm/prebuilts/build-tools/common/bison /root/exthm/prebuilts/build-tools/linux-x86/bin/make  -j8 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" HOSTCFLAGS=\"-fuse-ld=lld -Wno-unused-command-line-argument\" AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip HOSTCC=/root/exthm/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/root/exthm/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/root/exthm/prebuilts/build-tools/linux-x86/bin/flex YACC=/root/exthm/prebuilts/build-tools/linux-x86/bin/bison M4=/root/exthm/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/surya O=/root/exthm/out/target/product/surya/obj/DTB_OBJ ARCH=arm64 CROSS_COMPILE=\"/root/exthm/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/root/exthm/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CLANG_TRIPLE=aarch64-linux-gnu- CC=\"/usr/bin/ccache clang\"  vendor/surya_defconfig ) && (PATH=/root/exthm/out/host/linux-x86/bin:\$PATH PATH=/root/exthm/prebuilts/clang/host/linux-x86/clang-proton/bin:\$PATH LD_LIBRARY_PATH=/root/exthm/prebuilts/clang/host/linux-x86/clang-proton/lib64:\$LD_LIBRARY_PATH PATH=/root/exthm/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-/bin:\$PATH PATH=/root/exthm/prebuilts/tools-lineage/linux-x86/bin:\$PATH LD_LIBRARY_PATH=/root/exthm/prebuilts/tools-lineage/linux-x86/lib:\$LD_LIBRARY_PATH PERL5LIB=/root/exthm/prebuilts/tools-lineage/common/perl-base BISON_PKGDATADIR=/root/exthm/prebuilts/build-tools/common/bison /root/exthm/prebuilts/build-tools/linux-x86/bin/make  -j8 CFLAGS_MODULE=\"-fno-pic\" CPATH=\"/usr/include:/usr/include/x86_64-linux-gnu\" HOSTCFLAGS=\"-fuse-ld=lld\" HOSTLDFLAGS=\"-L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -fuse-ld=lld\" HOSTCFLAGS=\"-fuse-ld=lld -Wno-unused-command-line-argument\" AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip HOSTCC=/root/exthm/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang HOSTCXX=/root/exthm/prebuilts/clang/host/linux-x86/clang-r383902b/bin/clang++ LEX=/root/exthm/prebuilts/build-tools/linux-x86/bin/flex YACC=/root/exthm/prebuilts/build-tools/linux-x86/bin/bison M4=/root/exthm/prebuilts/build-tools/linux-x86/bin/m4 -C kernel/xiaomi/surya O=/root/exthm/out/target/product/surya/obj/DTB_OBJ ARCH=arm64 CROSS_COMPILE=\"/root/exthm/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin/aarch64-linux-android-\" CROSS_COMPILE_ARM32=\"/root/exthm/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin/arm-linux-androidkernel-\" CLANG_TRIPLE=aarch64-linux-gnu- CC=\"/usr/bin/ccache clang\"  dtbs ) && (cat \$(find out/target/product/surya/obj/DTB_OBJ/arch/arm64/boot/dts -type f -name \"*.dtb\" | sort) > out/target/product/surya/dtb.img )"
+make: Entering directory '/root/exthm/kernel/xiaomi/surya'
+make[1]: Entering directory '/root/exthm/out/target/product/surya/obj/DTB_OBJ'
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+  GEN     ./Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/root/exthm/out/target/product/surya/obj/DTB_OBJ'
+make: Leaving directory '/root/exthm/kernel/xiaomi/surya'
+make: Entering directory '/root/exthm/kernel/xiaomi/surya'
+make[1]: Entering directory '/root/exthm/out/target/product/surya/obj/DTB_OBJ'
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+arch/arm64/Makefile:59: LSE atomics not supported by binutils
+arch/arm64/Makefile:67: Detected assembler with broken .inst; disassembly will be unreliable
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+ccache: error: Could not find compiler "clang" in PATH
+  CHK     include/config/kernel.release
+ccache: error: Could not find compiler "clang" in PATH
+Cannot use CONFIG_CC_STACKPROTECTOR_STRONG: -fstack-protector-strong not supported by compiler
+ccache: error: Could not find compiler "clang" in PATH
+make[1]: *** [/root/exthm/kernel/xiaomi/surya/Makefile:1334: prepare-compiler-check] Error 1
+make[1]: *** Waiting for unfinished jobs....
+  UPD     include/config/kernel.release
+make[1]: Leaving directory '/root/exthm/out/target/product/surya/obj/DTB_OBJ'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/root/exthm/kernel/xiaomi/surya'
+03:20:58 ninja failed with: exit status 1
