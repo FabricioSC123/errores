@@ -1,0 +1,16 @@
+external/wpa_supplicant_8/hostapd/Android.mk: error: "hostapd (EXECUTABLES android-arm64) missing lib_driver_cmd_qcwcn (STATIC_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+external/wpa_supplicant_8/hostapd/Android.mk: error: "hostapd_nohidl (EXECUTABLES android-arm64) missing lib_driver_cmd_qcwcn (STATIC_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+external/wpa_supplicant_8/wpa_supplicant/Android.mk: error: "wpa_supplicant (EXECUTABLES android-arm64) missing lib_driver_cmd_qcwcn (STATIC_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+frameworks/opt/net/wifi/libwifi_hal/Android.mk: error: "libwifi-hal (SHARED_LIBRARIES android-arm64) missing libwifi-hal-qcom (STATIC_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+frameworks/opt/net/wifi/libwifi_hal/Android.mk: error: "libwifi-hal (SHARED_LIBRARIES android-arm64) missing libcld80211 (SHARED_LIBRARIES android-arm64)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+frameworks/opt/net/wifi/libwifi_hal/Android.mk: error: "libwifi-hal (SHARED_LIBRARIES android-arm) missing libwifi-hal-qcom (STATIC_LIBRARIES android-arm)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+frameworks/opt/net/wifi/libwifi_hal/Android.mk: error: "libwifi-hal (SHARED_LIBRARIES android-arm) missing libcld80211 (SHARED_LIBRARIES android-arm)"
+You can set ALLOW_MISSING_DEPENDENCIES=true in your environment if this is intentional, but that may defer real problems until later in the build.
+build/make/core/main.mk:946: error: exiting from previous errors.
+09:25:16 ckati failed with: exit status 1
