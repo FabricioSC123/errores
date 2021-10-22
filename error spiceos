@@ -1,0 +1,37 @@
+FAILED: out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/javac/SystemUI-core.jar
+rm -rf "out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/javac/classes" "out/soong/.intermediates/framewor
+ks/base/packages/SystemUI/SystemUI-core/android_common/javac/anno" "out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/andr
+oid_common/javac/srcjars" && mkdir -p "out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/javac/classes" "ou
+t/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/javac/anno" "out/soong/.intermediates/frameworks/base/packa
+ges/SystemUI/SystemUI-core/android_common/javac/srcjars" && out/soong/host/linux-x86/bin/zipsync -d out/soong/.intermediates/frameworks/base/pack
+ages/SystemUI/SystemUI-core/android_common/javac/srcjars -l out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_comm
+on/javac/srcjars/list -f "*.java" out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/gen/aidl/aidl0.srcjar o
+ut/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/gen/android/R.srcjar out/soong/.intermediates/frameworks/b
+ase/packages/SystemUI/SystemUI-core/android_common/kapt/kapt-sources.jar && (if [ -s out/soong/.intermediates/frameworks/base/packages/SystemUI/S
+ystemUI-core/android_common/javac/srcjars/list ] || [ -s out/soong/.intermediates/frameworks/base/packages/SystemUI/SystemUI-core/android_common/
+javac/SystemUI-core.jar.rsp ] ; then out/soong/host/linux-x86/bin/soong_javac_wrapper prebuilts/jdk/jdk11/linux-x86/bin/javac -J-Xmx2048M -J-XX:O
+nError="cat hs_err_pid%p.log" -J-XX:CICompilerCount=6 -J-XX:+UseDynamicNumberOfGCThreads -Xmaxerrs 9999999 -encoding UTF-8 -sourcepath "" -g -XDs
+kipDuplicateBridges=true -XDstringConcat=inline  -proc:none -g:source,lines -Xlint:-dep-ann --system=out/soong/.intermediates/libcore/mmodules/co
+re_platform_api/core-platform-api-stubs-system-modules/android_common/system -classpath out/soong/.intermediates/frameworks/base/ext/android_comm
+on/turbine-combined/ext.jar:out/soong/.intermediates/frameworks/base/framework/android_common/turbine-combined/framework.jar:out/soong/.intermedi
+ates/frameworks/opt/net/ims/ims-common/android_common/turbine-jarjar/ims-common.jar:out/soong/.intermediates/frameworks/base/libs/WindowManager/S
+hell/WindowManager-Shell/android_common/turbine-combined/WindowManager-Shell.jar:out/soong/.intermediates/frameworks/base/packages/SystemUI/plugi
+n/SystemUIPluginLib/android_common/turbine-combined/SystemUIPluginLib.jar:out/soong/.intermediates/frameworks/base/packages/SystemUI/shared/Syste
+mUISharedLib/android_common/turbine-combined/SystemUISharedLib.jar:out/soong/.intermediates/frameworks/base/packages/SystemUI/shared/SystemUI-sta
+tsd/android_common/turbine-combined/SystemUI-statsd.jar:out/soong/.intermediates/frameworks/base/packages/SettingsLib/SettingsLib/android_common/
+turbine-combined/SettingsLib.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx/androidx.viewpager2_viewpager2/android_common/turbine-co
+mbined/androidx.viewpager2_viewpager2.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx-legacy/androidx.legacy_legacy-support-v4/androi
+d_common/turbine-combined/androidx.legacy_legacy-support-v4.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx/androidx.recyclerview_rec
+yclerview/android_common/turbine-combined/androidx.recyclerview_recyclerview.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx/androidx
+.preference_preference/android_common/turbine-combined/androidx.preference_preference.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx
+/androidx.appcompat_appcompat/android_common/turbine-combined/androidx.appcompat_appcompat.jar:out/soong/.intermediates/prebuilts/sdk/current/and
+roidx/androidx.mediarouter_mediarouter/android_common/turbine-combined/androidx.mediarouter_mediarouter.jar:out/soong/.intermediates/prebuilts/sd
+k/current/androidx/androidx.palette_palette/android_common/turbine-combined/androidx.palette_palette.jar:out/soong/.intermediates/prebuilts/sdk/c
+urrent/androidx-legacy/androidx.legacy_legacy-preference-v14/android_common/turbine-combined/androidx.legacy_legacy-preference-v14.jar:out/soong/
+.intermediates/prebuilts/sdk/current/androidx/androidx.leanback_leanback/android_common/turbine-combined/androidx.leanback_leanback.jar:out/soong
+/.intermediates/prebuilts/sdk/current/androidx/androidx.slice_slice-core/android_common/turbine-combined/androidx.slice_slice-core.jar:out/soong/
+.intermediates/prebuilts/sdk/current/androidx/androidx.slice_slice-view/android_common/turbine-combined/androidx.slice_slice-view.jar:out/soong/.
+intermediates/prebuilts/sdk/current/androidx/androidx.slice_slice-builders/android_common/turbine-combined/androidx.slice_slice-builders.jar:out/
+soong/.intermediates/prebuilts/sdk/current/androidx/androidx.arch.core_core-runtime/android_common/turbine-combined/androidx.arch.core_core-runti
+me.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx-legacy/androidx.lifecycle_lifecycle-extensions/android_common/turbine-combined/and
+roidx.lifecycle_lifecycle-extensions.jar:out/soong/.intermediates/prebuilts/sdk/current/androidx/androidx.dynamicanimation_dynamicanimation/andro
