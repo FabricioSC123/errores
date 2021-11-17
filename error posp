@@ -1,0 +1,53 @@
+FAILED: out/target/product/surya/dtb.img
+/bin/bash -c "(echo -e \"Building DTBs\" ) && (PATH=/home/fabriciosc/disco/potato/prebuilts/jdk/jdk11/linux-x86/bin:/home/fabriciosc/disco/potato/prebuilts/jdk/jdk11
+/linux-x86/bin:/home/fabriciosc/disco/potato/out/soong/host/linux-x86/bin:/home/fabriciosc/disco/potato/out/host/linux-x86/bin:/home/fabriciosc/disco/potato/prebuilt
+s/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:/home/fabriciosc/disco/potato/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:/home/fabriciosc/disco/
+potato/development/scripts:/home/fabriciosc/disco/potato/prebuilts/devtools/tools:/home/fabriciosc/disco/potato/external/selinux/prebuilts/bin:/home/fabriciosc/disco
+/potato/prebuilts/misc/linux-x86/dtc:/home/fabriciosc/disco/potato/prebuilts/misc/linux-x86/libufdt:/home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x86/llvm
+-binutils-stable:/home/fabriciosc/disco/potato/prebuilts/android-emulator/linux-x86_64:/home/fabriciosc/disco/potato/prebuilts/asuite/acloud/linux-x86:/home/fabricio
+sc/disco/potato/prebuilts/asuite/aidegen/linux-x86:/home/fabriciosc/disco/potato/prebuilts/asuite/atest/linux-x86:bin:bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/u
+sr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:\$PATH PATH=/home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x86/clang-r416183b1/bin:\$PATH LD_LIBRAR
+Y_PATH=/home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x86/clang-r416183b1/lib64:\$LD_LIBRARY_PATH PATH=//bin:\$PATH prebuilts/build-tools/linux-x86/bin/mak
+e  -j4 CFLAGS_MODULE=\"-fno-pic\" -C kernel/xiaomi/surya O=/home/fabriciosc/disco/potato/out/target/product/surya/dtbs ARCH=arm64 CROSS_COMPILE=\"aarch64-linux-andro
+id-\" CROSS_COMPILE_ARM32=\"arm-linux-androideabi-\" CLANG_TRIPLE=aarch64-linux-gnu- CC=\"/usr/bin/ccache /home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x8
+6/clang-r416183b1/bin/clang\" surya_defconfig ) && (PATH=/home/fabriciosc/disco/potato/prebuilts/jdk/jdk11/linux-x86/bin:/home/fabriciosc/disco/potato/prebuilts/jdk/
+jdk11/linux-x86/bin:/home/fabriciosc/disco/potato/out/soong/host/linux-x86/bin:/home/fabriciosc/disco/potato/out/host/linux-x86/bin:/home/fabriciosc/disco/potato/pre
+builts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9/bin:/home/fabriciosc/disco/potato/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9/bin:/home/fabriciosc/d
+isco/potato/development/scripts:/home/fabriciosc/disco/potato/prebuilts/devtools/tools:/home/fabriciosc/disco/potato/external/selinux/prebuilts/bin:/home/fabriciosc/
+disco/potato/prebuilts/misc/linux-x86/dtc:/home/fabriciosc/disco/potato/prebuilts/misc/linux-x86/libufdt:/home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x86
+/llvm-binutils-stable:/home/fabriciosc/disco/potato/prebuilts/android-emulator/linux-x86_64:/home/fabriciosc/disco/potato/prebuilts/asuite/acloud/linux-x86:/home/fab
+riciosc/disco/potato/prebuilts/asuite/aidegen/linux-x86:/home/fabriciosc/disco/potato/prebuilts/asuite/atest/linux-x86:bin:bin:/usr/local/sbin:/usr/local/bin:/usr/sb
+in:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:\$PATH PATH=/home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x86/clang-r416183b1/bin:\$PATH LD_L
+IBRARY_PATH=/home/fabriciosc/disco/potato/prebuilts/clang/host/linux-x86/clang-r416183b1/lib64:\$LD_LIBRARY_PATH PATH=//bin:\$PATH prebuilts/build-tools/linux-x86/bi
+n/make  -j4 CFLAGS_MODULE=\"-fno-pic\" -C kernel/xiaomi/surya O=/home/fabriciosc/disco/potato/out/target/product/surya/dtbs ARCH=arm64 CROSS_COMPILE=\"aarch64-linux-
+android-\" CROSS_COMPILE_ARM32=\"arm-linux-androideabi-\" CLANG_TRIPLE=aarch64-linux-gnu- CC=\"/usr/bin/ccache /home/fabriciosc/disco/potato/prebuilts/clang/host/lin
+ux-x86/clang-r416183b1/bin/clang\" dtbs ) && (cat \$(find out/target/product/surya/dtbs/arch/arm64/boot/dts/** -type f -name \"*.dtb\" | sort) > out/target/product/s
+urya/dtb.img )"
+Building DTBs
+make: Entering directory '/home/fabriciosc/disco/potato/kernel/xiaomi/surya'
+make[1]: Entering directory '/home/fabriciosc/disco/potato/out/target/product/surya/dtbs'
+  GEN     ./Makefile
+  HOSTCC  scripts/basic/fixdep
+  HOSTCC  scripts/kconfig/conf.o
+  SHIPPED scripts/kconfig/zconf.tab.c
+  SHIPPED scripts/kconfig/zconf.lex.c
+  HOSTCC  scripts/kconfig/zconf.tab.o
+  HOSTLD  scripts/kconfig/conf
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/fabriciosc/disco/potato/out/target/product/surya/dtbs'
+make: Leaving directory '/home/fabriciosc/disco/potato/kernel/xiaomi/surya'
+make: Entering directory '/home/fabriciosc/disco/potato/kernel/xiaomi/surya'
+make[1]: Entering directory '/home/fabriciosc/disco/potato/out/target/product/surya/dtbs'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  UPD     include/config/kernel.release
+Cannot use CONFIG_CC_STACKPROTECTOR_STRONG: -fstack-protector-strong not supported by compiler
+make[1]: *** [/home/fabriciosc/disco/potato/kernel/xiaomi/surya/Makefile:1338: prepare-compiler-check] Error 1
+make[1]: Leaving directory '/home/fabriciosc/disco/potato/out/target/product/surya/dtbs'
+make: *** [Makefile:146: sub-make] Error 2
+make: Leaving directory '/home/fabriciosc/disco/potato/kernel/xiaomi/surya'
+22:18:47 ninja failed with: exit status 1
+
